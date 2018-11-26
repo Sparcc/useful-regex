@@ -1,0 +1,8 @@
+[pattern]
+addOpt.*?ch\[i\],'([0-9]*?)','(.*?)'\);
+
+[notepad++ replace]
+addOpt.addOption\(ch[i],"\1","\1 - \2"\);
+
+[excel equivalent]
+=CONCATENATE("g_form.addOption('job_code_closest_fit',","'",A2,"','",C2,"');")
