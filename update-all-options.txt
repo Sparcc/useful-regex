@@ -13,7 +13,8 @@ Add extra parameters
 
 (addOpt\.addOption\(ch\[i\],'.*?','.*?')
 
-
-
 [notepad++ replace]
 \1,criteria);
+
+[pattern account for escapes]
+addOpt\.addOption\(ch\[i\],'(.*?[^\\])','(.*?[^\\])'\);
