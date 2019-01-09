@@ -1,0 +1,7 @@
+<img class="[^"]*" src="data[^"][^>]*>
+
+//accounts for when there is no class
+<img (class="[^"]*" )?src="data[^"][^>]*>
+
+//for when the class is on the end instead
+<img (class="[^"]*" )?src="data[^"][^>]*( class="[^"]*" )?>
